@@ -1,0 +1,16 @@
+@model Pet
+<h1 class="text-center">Dojodachi!</h1>
+<div class="col border px-2 py-2 rounded text-center">
+    <h2>Your Dojodachi is VICTORIOUS!</h2>
+    <div class="mx-auto my-2 rounded">
+        <img src="images/@Model.imageState" class="fluid">
+    </div>
+    <p>A winner is you!</p>
+    <br>
+    <p>Turns taken: @Model.Turns</p>
+    <br>
+    <p>Press <b>Reset</b> to play again.</p>
+    <div class="text-center">
+        <a href="/5"><button class="btn btn-secondary my-3 mx-3">Reset</button></a>
+    </div>
+</div>
